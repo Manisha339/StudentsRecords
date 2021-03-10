@@ -24,10 +24,7 @@ namespace StudentsRecords
             else
             {
                 Console.WriteLine("File exists");
-                String file1 = "Manisha, 21, IT";
-                String file2 = "Manisha, 21, IT";
-                File.WriteAllText(filename, file1);
-                File.WriteAllText(filename, file2);
+                
                 string[] contents = File.ReadAllLines(filename);
                 foreach (var content in contents)
                 {
