@@ -1,0 +1,5 @@
+Manisha, 21, IT
+jithu, 34, CSE
+Januna, 45, CSSE
+Naresh, 46, ME
+Gnanesh, 21, IT
