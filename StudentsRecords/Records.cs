@@ -9,13 +9,13 @@ namespace StudentsRecords
     {
         public static void Do()
         {
-            ReadLine();
+            ReadData();
         }
 
-        private static void ReadLine()
+        private static void ReadData()
         {
             string dir = Directory.GetCurrentDirectory();
-            string filename = dir + "\\RecordsOfStudent1.txt";
+            string filename = dir + "\\StudentsDetails.txt";
             Console.WriteLine(filename);
             if (!(File.Exists(filename)))
             {
@@ -30,8 +30,6 @@ namespace StudentsRecords
                 {
                     string[] data = content.Split(", ");
                     Console.WriteLine("\n Name:" + data[0] + ", Age:" + data[1] + ", Dept:" + data[2]);
-
-
                 }
             }
         }
